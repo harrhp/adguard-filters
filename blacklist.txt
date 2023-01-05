@@ -46,3 +46,8 @@ ipv4.tracker-api.my.ru
 captive.keenetic.ru
 visor.sberbank.ru	
 sa.online.sberbank.ru
+sentry-do.x5.ru
+sdk.inappstory.com
+sdk.inappstory.ru
+matomo.x5.ru
+matomo-el5.x5.ru
