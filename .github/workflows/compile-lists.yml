@@ -21,7 +21,7 @@ jobs:
       - name: compile lists
         run: |
           npm install -g @adguard/hostlist-compiler
-          mkdir compiled
+          mkdir -p compiled
           hostlist-compiler --config config.json --output compiled/hostlist.txt
       - name: commit & push
         uses: actions-js/push@master
