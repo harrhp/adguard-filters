@@ -61,7 +61,11 @@
             "type": "hosts"
         },
         {
-            "source": "lists/custom-blacklist.txt",
+            "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.tiktok.txt",
+            "type": "adblock"
+        },
+        {
+            "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.winoffice.txt",
             "type": "adblock"
         }
     ],
