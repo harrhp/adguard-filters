@@ -12,7 +12,6 @@
 ||ip4.ru.tracker-api.my.com^
 ||cs.inappstory.com^
 ||firestore.googleapis.com^
-||update.googleapis.com^
 ||firebaseremoteconfig.googleapis.com^
 ||inapps.appsflyersdk.com^
 ||optimizationguide-pa.googleapis.com^
