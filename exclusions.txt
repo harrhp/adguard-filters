@@ -1,2 +1,4 @@
 0.0.0.0 developers.google.com
 ||link.medium.com^
+0.0.0.0 etherscan.io
+0.0.0.0 www.etherscan.io
