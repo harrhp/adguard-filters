@@ -7,7 +7,7 @@
 ||retailrocket.ru^
 ||prezly.com^
 ||eufylife.com^
-||mosmetro.tech^
+||stories.mosmetro.tech^
 ||api.plus.yandex.net^
 ||api.browser.yandex.ru^
 ||v7event.stats.avast.com^
