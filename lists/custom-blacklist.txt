@@ -2,7 +2,6 @@
 ||firebase-settings.crashlytics.com^
 ||rs.sbermarket.ru^
 ||lenta.tech^
-||firestore.googleapis.com^
 ||content-autofill.googleapis.com^
 ||retailrocket.ru^
 ||prezly.com^
