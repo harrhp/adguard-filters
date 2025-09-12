@@ -14,7 +14,6 @@
 ||s1cp.xyz^
 ||safebrowsing.googleapis.com^
 ||tracker-api.my.ru^
-||captive.keenetic.ru^
 ||sa.online.sberbank.ru^
 ||inappstory.com^
 ||inappstory.ru^
