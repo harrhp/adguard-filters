@@ -15,8 +15,9 @@ on:
 
 jobs:
   build:
-    if: ${{ !contains(github.event.head_commit.message, 'skip ci') }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -26,12 +27,14 @@ jobs:
         id: compile-lists
         run: |
           ./build.sh
-          [[ -z "$(git diff --ignore-matching-lines="^! Last modified")" ]] || echo "changed=true" >> $GITHUB_OUTPUT
-      - name: commit & push
-        if: steps.compile-lists.outputs.changed
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add .
-          git commit -m "skip ci: auto-build"
-          git push origin HEAD
+          echo "date=$(date +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_OUTPUT
+      - name: Update Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: Latest Filter List
+          body: |
+            Latest compiled filter list
+            Updated: ${{ steps.compile-lists.outputs.date }}
+          files: compiled/hostlist.txt
+          make_latest: true
