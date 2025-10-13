@@ -1,0 +1,11 @@
+||retailrocket.ru^
+||prezly.com^
+||eufylife.com^
+||alice.yandex.net^
+||api-statist.tinkoff.ru^
+||mail.ru^
+||alt-r.my.ru^
+||r.my.ru^
+||target.my.ru^
+||tracker.my.ru^
+||tracker-api.my.ru^

@@ -1,0 +1,6 @@
+{
+  "image": "ghcr.io/harrhp/devcontainer:main",
+  "containerEnv": {
+    "PRE_COMMIT_ALLOW_NO_CONFIG": "1"
+  }
+}
